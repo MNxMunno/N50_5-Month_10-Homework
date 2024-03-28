@@ -484,6 +484,14 @@ main .product__page .not__found a {
   main .product__page .product__content .product__left-images {
     flex-direction: row;
   }
+  main .product__page .product__loading {
+    flex-direction: column;
+    gap: 32px;
+  }
+  main .product__page .product__loading .loading__imgs {
+    flex-direction: row;
+    gap: 36px;
+  }
 }
 @media only screen and (max-width: 534px) {
   main .product__loading .loading__imgs {

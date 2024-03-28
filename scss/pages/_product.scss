@@ -502,6 +502,14 @@ main {
           flex-direction: row;
         }
       }
+      .product__loading {
+        flex-direction: column;
+        gap: 32px;
+        .loading__imgs {
+          flex-direction: row;
+          gap: 36px;
+        }
+      }
     }
   }
   @media only screen and (max-width: 534px) {
