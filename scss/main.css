@@ -477,6 +477,14 @@ main .product__page .not__found a {
   display: block;
   font-family: sans-serif;
 }
+@media only screen and (max-width: 1218px) {
+  main .product__page .product__content {
+    flex-direction: column;
+  }
+  main .product__page .product__content .product__left-images {
+    flex-direction: row;
+  }
+}
 @media only screen and (max-width: 534px) {
   main .product__loading .loading__imgs {
     flex-direction: row;
